@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="shortcut icon" href="favicon/favicon-32x32.png" type="image/x-icon">
+    <title>Contacto Nara Torres</title>
+</head>
+
+<body>
+    <header>
+        <h1>Nara Torres</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a class="active" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <form action="">
+            <label  class="left" for="nombre">Nombre</label>
+            <input class="formato-input" required name="nombre" id="nombre" type="text">
+            <label class="left" for="email">Email</label>
+            <input class="formato-input" required name="email" id="email" type="email">
+            <label class="left" for="pais">País</label>
+            <select class="formato-input" name="pais" id="pais">
+                <option value="Perú">Perú</option>
+                <option value="Bolivía">Bolivía</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Chile">Chile</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Brasil">Brasil</option>
+            </select>
+            <label for="comentario">Comentarios</label>
+            <textarea class="formato-input" name="comentario" id="comentario"></textarea>
+            <button type="submit" id="btn-enviar" value="btn-enviar"> Enviar comentario </button>
+        </form>
+    </div>
+
+    <footer>
+        <p>
+            Derechos reservados &copy 2023
+        </p>
+    </footer>
+</body>
+
+</html>

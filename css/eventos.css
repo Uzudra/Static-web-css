@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    justify-content: center;
+    animation: top-bottom 1s ease-in-out alternate infinite ;
+}
+h2{
+    padding: 0;
+    margin: 20px;
+    text-align: center;
+}
+
+table{
+    cursor: pointer;
+    width: 50%;
+    border-collapse: collapse;
+    background-color: rgba(36, 0, 89, 0.803);
+    font-size: 1rem;
+    text-align: center;
+}
+
+table colgroup col:first-child {
+    background-color: rgb(192, 1, 255);
+}
+
+th,tr, td{
+    color: white;
+    padding: 15px 10px;
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+tr:nth-child(even){
+    background-color: rgb(159, 93, 217);
+}
+
+tbody tr:hover{
+    opacity: 0.9;
+    scale: 1.0.8;
+}
+
+th:hover{
+    color: #dedede;
+}
+
+@keyframes top-bottom {
+
+    0% {
+        transform: translateY(5%);
+    }
+    100% {
+        transform: translateY(-0%);
+    }
+}

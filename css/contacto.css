@@ -1,0 +1,53 @@
+
+.container{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 5px auto;
+    width: 70%;
+    background-color: #dedede;
+    border-radius: 10px ;
+    
+}
+
+form{
+    box-sizing: border-box;
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+margin-bottom: 10px;
+}
+
+.left{
+    float: left;
+}
+
+.formato-input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 5px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.formato-input:hover:not(textarea) {
+    opacity: 0.8;
+    border: 1px dotted #797979;
+}
+
+.formato-input:focus:not(textarea) {
+    background-color: #b0b0b0;
+}
+
+button{
+    box-sizing: border-box;
+    padding: 8px;
+    margin: 5px auto;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}

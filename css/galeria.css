@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.galeria {
+    border-radius: 5px;
+    margin: 3px;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 0;
+    overflow: hidden;
+}
+
+.galeria img {
+    width: 100%;
+    height: auto;
+    transition: all 0.5s ease-in-out;
+    aspect-ratio: 0.8/1.5;
+
+}
+
+.descripcion {
+    padding: 5px;
+    text-align: center;
+    letter-spacing: 1px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.descripcion:hover {
+    transform: scaleY(1.1) scaleX(1.1);
+}
+
+.galeria img:hover {
+    scale: 1.1;
+}
